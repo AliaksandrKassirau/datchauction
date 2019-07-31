@@ -4,7 +4,7 @@
     <title>Home</title>
 </head>
 <body>
-    <div th:text = "'Welcome, ' + ${username}"/><br>
-
+    <div th:text = "'Welcome, ' + ${user.username}"/><br>
+    <div th:text = "'You are a ' + ${user.role}"/><br>
 </body>
 </html>
